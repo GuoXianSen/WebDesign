@@ -1,0 +1,65 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	height: auto;
+}
+.con{
+	background-color: grey;
+	/*width: 400px;*/
+	width: 100%;
+	height: 50px;
+	margin: 0 auto;/*让整个盒子居中，但是盒子中的内容不居中*/
+	text-align: center;
+	/*position: fixed;
+	top: 0;*/
+}
+ul{
+	list-style: none;
+	/*transition: .5s;*/
+}
+li{
+	display: inline-block;
+	list-style-type: none;
+	font-size: 20px;
+	padding:0px 20px 0px 20px;
+	border-radius: 6%;
+}
+ul li a{
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	line-height: 50px;/*让文字在行内居中(垂直居中）的话，只要让文字的line-height和一行的高度相等即可*/
+}
+ul li:hover{
+	background-color: orange;
+}
+ul li a:hover{
+	color: white;
+}
+
+.login{
+	height: 50px;
+	width: 120px;
+}
+.login a{
+	text-decoration: none;
+	line-height: 50px;
+	font-size: 16px;
+	text-align: center;
+	color: black;
+}
+
+section{
+	height: 500px;
+}
+footer{
+	/*height: 50px;*/
+	height: auto;
+	font-size: 20px;
+	text-align: center;
+	background-color: grey;
+	line-height: 50px;
+	color: white;
+}

@@ -1,0 +1,22 @@
+.foot{
+	margin: 0 auto;
+	text-align: center;
+	clear: both;
+}
+/*版权信息部分*/
+.copy{
+	height: 50px;
+	line-height: 50px;
+	font-size: 18px;
+}
+
+/*赞助商部分*/
+
+
+
+/*友情链接部分*/
+.friends{
+	width: 1150px;
+	height: 260px;
+	background-color: lightblue;
+}
